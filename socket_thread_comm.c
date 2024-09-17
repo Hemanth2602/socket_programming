@@ -17,7 +17,7 @@ int main()
 {
 
 	pthread_t thread_client ;
-
+	printf("hii \n");
 	client_fd = socket(AF_INET , SOCK_STREAM , 0);
 	if(client_fd < 0)
 	{
